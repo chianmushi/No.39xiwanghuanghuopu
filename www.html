@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一次尝试</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(45deg, #cff, #fcc);
+        }
+        .flex {
+            display: flex;
+        }
+        .baise {
+            background-color: #fff;
+        }
+        .flex1 {
+            flex:1;
+        }
+        .column {
+            flex-direction: column;
+        }
+        .mg8 {
+            margin: 8px;
+        }
+        .mgr {
+            margin-right: 8px;
+        }
+        .mgl {
+            margin-left: 8px;
+        }
+        .mgt {
+            margin-top: 8px;
+        }
+        .yingyin {
+            box-shadow: 1px 1px 3px;
+        }
+         .yuanxingbiankuang {
+                border-color: rgba(2, 2, 2, 0.527);
+                border-width: 10px;
+                border-style: solid;
+                border-radius: 50%;
+        }
+        .butoumingdu {
+                opacity:0.3
+        }
+        .wenziduiqi{
+                text-align: justify
+        }
+        .biankuang{
+            border-color: #fff;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 80px;
+        }
+        p {
+            color: rgb(0, 141, 223);
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        p:hover {
+            color: rgb(218, 253, 89)
+        }
+        @media (max-width: 600px) {
+            .cebianlan{
+                display: none;
+            }
+            .neirongqv{
+                flex-direction: column;
+            }
+            .shujvqv{
+                flex-direction: column;
+            }
+            .youqv{
+                margin-left: 8px;
+            }
+            .shujvkuai{
+                margin: 0 0 8px;
+                flex: auto;
+            }
+            .daoxiao{
+                width: 20%;
+                height: 20%;    
+                margin: 10px;
+                
+            }
+            .flex2{
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body class="flex">
+    <!--侧边栏-->
+    <div style="width: 200px; z-index: 2" class="cebianlan baise yingyin">
+      <div class="biankuang"><img src="https://chianmushi.github.io/No.39xiwanghuanghupu/6.png" alt="6" width="80px">
+      </div>
+    </div>
+    <!--主区域-->
+    <div class="flex1 flex column">
+        <!--头部区-->
+        <div style="height: 60px; z-index: 1; text-align: center; background-color: rgb(253, 222, 248)" class="baise yingyin">
+        <p style="color: blue; font-size: 16px">欲买桂花同载酒 只可惜故人 何日再见了</p>
+        </div>
+        <!--内容区-->
+        <div style="overflow: auto;"class="neirongqv flex1 flex">
+            <!--左区-->
+            <div style="flex:3;" class="flex column mg8">
+                <img src="https://chianmushi.github.io/No.39xiwanghuanghupu/tiegui.png" alt="tiegui" width="100%">
+             <!--数据区-->
+             <div class="shujvqv flex flex2">
+                <!--数据块-->
+                <div style="height: 100px" class="shujvkuai flex1 baise mgr yingyin daoxiao">
+                    <img src="https://chianmushi.github.io/No.39xiwanghuanghupu/4.png" alt="4" width="100%" height="100%">
+                </div>
+                <div style="height: 100px" class="shujvkuai flex1 baise mgr yingyin daoxiao">
+                    <img src="https://chianmushi.github.io/No.39xiwanghuanghupu/2.png" alt="2" width="100%" height="100%">
+                </div>
+                <div style="height: 100px" class="shujvkuai flex1 baise mgr yingyin daoxiao">
+                    <img src="https://chianmushi.github.io/No.39xiwanghuanghupu/3.png"alt="3" width="100%" height="100%">
+                </div>
+                <div style="height: 100px" class="shujvkuai flex1 baise yingyin daoxiao">
+                    <img src="https://chianmushi.github.io/No.39xiwanghuanghupu/5.png" alt="5" width="100%" height="100%">
+                </div>
+             </div>
+             <!--列表区-->
+             <div class="flex column  butoumingdu">
+              <!--列表项-->
+              <div style="height: 150px" class="baise mgt yingyin">
+              <P>前天看见一只小兔子，它蹦跶的样子真可爱，
+            昨天看见一只小鹿，黑色的眼睛像氤氲着雾气，看得我心里一软，看着就让人的心雀跃起来。
+            直到我今天看见你。缓缓地，欢喜地，珍而重之地。你呀，在我心里，是最温柔的存在。  --《蒲公英的女孩》</P>
+              </div> 
+              <div style="height: 150px" class="baise mgt yingyin"></div> 
+              <div style="height: 150px" class="baise mgt yingyin"></div> 
+              <div style="height: 150px" class="baise mgt yingyin"></div>
+              <div style="height: 150px" class="baise mgt yingyin"></div> 
+              <div style="height: 150px" class="baise mgt yingyin"></div>
+             </div>
+            </div>
+            <!--右区-->
+            <div style="flex:1" class="youqv flex column">
+             <!--提示区-->
+             <div style="height: 150px" class="baise mgt yingyin">
+               <img src="https://chianmushi.github.io/No.39xiwanghuanghupu/yuanzhikong.png" alt="yuanzhikong" width="100%"></div>
+             <!--消息区-->
+             <div style="height: 300px" class="baise mgt yingyin">
+               <img src="https://chianmushi.github.io/No.39xiwanghuanghupu/yecha.png" alt="yecha" width="100%" height="90%"></div>
+             <!--评论区-->
+             <div style="flex:1" class="baise mgt yingyin"><img src="https://chianmushi.github.io/No.39xiwanghuanghupu/1.png" alt="1" width="100%" height="100%">
+                <form action="#">
+                    <p>你喜欢这个网址吗？</p>
+                    <label for="like">
+                        <input id="like" type="radio" name="like-dislike">喜欢
+                    </label>
+                    <label for="dislike">
+                        <input id="dislike" type="radio" name="like-dislike">不喜欢
+                    </label>
+                        <input type="text" style="height: 20px" 
+                         placeholder="欢迎评论" required>
+                    <button type="submit">提交
+                    </button>
+                </form> 
+             </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
