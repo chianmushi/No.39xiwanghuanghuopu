@@ -1,0 +1,27 @@
+.red {
+    background-color: #f00
+}
+body {
+    background-color: #f00;
+}
+p {
+    color: #fff;
+    font-size: 40px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+div {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+@media (max-width: 600px) {
+    p {
+        font-size: 16px;
+    }
+}
