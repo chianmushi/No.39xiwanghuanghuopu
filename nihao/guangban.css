@@ -1,0 +1,57 @@
+* {
+    /*初始化*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+ {
+    border: 1px solid #000;
+}
+.flex1 {
+    flex: 1;
+}
+.row {
+    flex-direction: row;
+}
+.flex2 {
+    flex: 2;
+}
+.flex3 {
+    flex: 3;
+}
+.flex4 {
+    flex: 4;
+}
+.rbiankuang {
+    border: 1px solid;
+    border-radius: 10px;
+}
+.biankuang {
+    border: 1px solid;
+}
+div {
+    padding: auto;
+}
+.ww {
+    width: 55%;
+}
+.top {
+    margin-top: 2px;
+}
+@media (max-width: 600px) {
+    .quchu {
+        display: none;
+    }
+    .kuandu {
+        width: 100%;
+    }
+}
